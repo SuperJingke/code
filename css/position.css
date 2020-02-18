@@ -7,15 +7,19 @@
 }
 
 .image1{
+    display:inline-block;
     position: relative;
     top: 0;
     left: 0;
-    text-align: center;
+    text-align: justify;
+    padding: 0em;
+    margin: 0em;
 
 }
 
 .image2{
     position: absolute;
+    display: flex;
     border: 0.1em green solid;
     border-radius: 20em;
     top: 20%;
@@ -28,15 +32,16 @@
     top: 8px;
     right: 5px;
     font-size: 18px;
+    display: inline-block;
   }
 
 .search-box{
     position: absolute;
-    left: 50%;
-    top: 80%;
+    left: 40%;
+    top: 50%;
     width: 100%;
     text-align: center;
-    font-size: 50px;
+    font: 90px;
 }
 
 main div form input{
@@ -49,7 +54,7 @@ main div form input{
     text-align: center;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 100em) {
     .related-box {
         flex-basis: 25%;
     }

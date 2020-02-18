@@ -7,7 +7,7 @@
     --animation-speed-sec : 1;
     --font-logo :'Indie Flower', cursive;
     --font-a: 'Roboto',arial, helvetica, sans-serif;
-    --spacing: 1em;
+    --spacing: 0.5em;
  }
  
  body {
@@ -16,7 +16,7 @@
     font-family: var(--font-a);
     line-height: var(--spacing);
     margin: auto;
-    box-sizing: border-box;
+    
 
  }
 
@@ -34,4 +34,9 @@ header{
 
 }
 
+h2{
+    box-sizing: border-box;
+    display: block;
+
+}
 

@@ -21,7 +21,7 @@
 }
 
 .nav-main a:hover{
-    background-color: darkslategray;
+    background-color: tomato;
     color: white;
 }
 .nav-main ul {
@@ -40,5 +40,16 @@
 
 main div form{
     border-spacing: 0em;
+}
+
+.result-list1{
+    display: grid;
+    grid-template-columns: 30% 60%;
+
+    max-width: auto;
+    max-height: 5px;
+    left: 1em;
+    margin: 0em;
+
 }
 
