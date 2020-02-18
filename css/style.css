@@ -1,0 +1,44 @@
+
+.nav-main{
+    
+    border-radius: 5px;
+    
+}
+
+.nav-main ul li{
+    display: inline-block;
+
+
+}
+
+.nav-main a{
+    text-decoration: none;
+    color: black;
+    background-color: cornsilk;
+    padding: 0.2em;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.nav-main a:hover{
+    background-color: darkslategray;
+    color: white;
+}
+.nav-main ul {
+    text-align: right;
+}
+
+.nav-main form label{
+    text-decoration: none;
+    color: black;
+    background-color: cornsilk;
+    padding: 0em;
+    display: inline-block;
+    border-radius: 3px;
+    border-radius: 5%;
+}
+
+main div form{
+    border-spacing: 0em;
+}
+

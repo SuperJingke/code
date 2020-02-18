@@ -1,0 +1,63 @@
+.parent{
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+
+}
+
+.image1{
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+
+}
+
+.image2{
+    position: absolute;
+    border: 0.1em green solid;
+    border-radius: 20em;
+    top: 20%;
+    left: 60%;
+    text-align: center;
+}
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    font-size: 18px;
+  }
+
+.search-box{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+
+main div form input{
+
+    min-width: 15em;
+    min-height: 5em;
+    border-spacing: 0em;
+    margin: 0em;
+    padding: 0em;
+    text-align: center;
+}
+
+@media screen and (min-width: 40em) {
+    .related-box {
+        flex-basis: 25%;
+    }
+}
+
+
+@media screen and (min-width: 60em) {
+    .related-box {
+        flex-basis: 20%;
+    }
+}

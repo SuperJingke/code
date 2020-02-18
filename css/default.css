@@ -1,5 +1,37 @@
+:root {
+    --col-bg: #FFF3D6;
+    --col-on-bg: #333333;
+    --col-accent-a: #935252;
+    --col-on-accent-a: #A775B2;
+    --container-w1: 50em; 
+    --animation-speed-sec : 1;
+    --font-logo :'Indie Flower', cursive;
+    --font-a: 'Roboto',arial, helvetica, sans-serif;
+    --spacing: 1em;
+ }
+ 
+ body {
+    background-color: var(--col-bg);
+    color: var(--col-on-bg);
+    font-family: var(--font-a);
+    line-height: var(--spacing);
+    margin: auto;
+    box-sizing: border-box;
+
+ }
+
+
+header{
+    background-image: url('/Users/Veladaraston/Desktop/web-design-and-development/Composite 1 code/code/lily-banse-unsplash.jpg');
+    width:auto;
+    height: auto;
+    margin: 0em;
+}
+
 .image-size{
-    padding: 0.3em 0.1em 0.1em 0.1em;
+    padding: 0em 0em 0em 0em;
     text-align: center;
 
 }
+
+
