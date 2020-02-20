@@ -16,30 +16,33 @@
     font-family: var(--font-a);
     line-height: var(--spacing);
     margin: auto;
-    
-
  }
 
- .container{
-     
- }
 
 header{
-    background-image: url('/Users/Veladaraston/Desktop/web-design-and-development/Composite 1 code/code/lily-banse-unsplash.jpg');
-    width:auto;
+    display: block;
+    width: auto;
     height: auto;
     margin: 0em;
 }
 
 .image-size{
+    background-image: url('lily-banse-unsplash.jpg');
+    background-size: cover;
+    width: 100%;
+    min-height:10em;
     padding: 0em 0em 0em 0em;
+    margin: 0em;
     text-align: center;
-
 }
 
-h2{
-    box-sizing: border-box;
-    display: block;
-
+button a{
+    color: whitesmoke;
+    font-size: 2em;
 }
 
+button a:hover{
+    background-color: tomato;
+    color: #000000;
+    border-radius: 0.1em;
+}

@@ -2,22 +2,20 @@
 .nav-main{
     
     border-radius: 5px;
+    padding: 1em;
     
 }
-
 .nav-main ul li{
     display: inline-block;
-
-
 }
 
 .nav-main a{
     text-decoration: none;
     color: black;
     background-color: cornsilk;
-    padding: 0.2em;
+    padding: 1em;
     display: inline-block;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .nav-main a:hover{
@@ -35,21 +33,29 @@
     padding: 0em;
     display: inline-block;
     border-radius: 3px;
-    border-radius: 5%;
 }
 
 main div form{
-    border-spacing: 0em;
+    border-spacing: 1em;
 }
 
-.result-list1{
+.search-img{
+    max-width: 10px ;
+    max-height: 5px;
+}
+.container{
+    display: grid;
+    max-width: 20em;
+    max-height: 20em;
+}
+.one{
     display: grid;
     grid-template-columns: 30% 60%;
-
-    max-width: auto;
+    max-width: 3px;
     max-height: 5px;
     left: 1em;
     margin: 0em;
-
 }
+
+
 
