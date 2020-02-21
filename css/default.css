@@ -20,24 +20,25 @@ header{
 }
 
 header button {
-    display: inherit;
+    display: inline;
     text-align: inherit;
     padding: 0em;
     margin: 0em;
-    border-radius: 1em;
-    color: transparent;
+    background-color: transparent;
+    border-style: hidden;
 }
 
 button ul{
+    display: inline;
     padding: 0em;
     margin: 0em;
+    list-style: none;
+    color: #FFF3D6;
 }
 
-button ul li{
-    color: whitesmoke;
-    font-size: 2em;
-    padding: 0em;
-    margin: 0em;
+button ul li a{
+    font-size: 6em;
+
 }
 button a:hover{
     background-color: tomato;
