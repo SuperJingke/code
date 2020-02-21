@@ -27,17 +27,23 @@ header button {
     background-color: transparent;
     border-style: hidden;
 }
-
-button ul{
-    display: inline;
+button a{
+    font-size: 2em;
+    color: #FFF3D6;
     padding: 0em;
-    margin: 0em;
+    margin: 0.5em;
+}
+button ul li{
+    display: inline-block;
+    padding: 0em;
+    margin: 0.5em;
     list-style: none;
     color: #FFF3D6;
 }
 
 button ul li a{
-    font-size: 6em;
+    font-size: 2em;
+    color: #FFF3D6;
 
 }
 button a:hover{
@@ -51,6 +57,11 @@ h1,h2{
     font-size-adjust: 0.58;
     white-space: nowrap;
 }
+
+h3{
+    text-align: left;
+}
+
 /* 
 @media screen and (max-width:10em){
     .topright{

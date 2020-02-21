@@ -8,14 +8,16 @@
 
 
 .logo{
-    border: 0.1em green solid;
+    border: 0.1em green;
     border-radius: 20em;
     top: 20%;
     left: 60%;
+    bottom: 10%;
     text-align: center;
+    padding: 0 1em 1em 0;
 }
 
-.topright { 
+.topleft { 
     position: relative; 
     font-size: 20px;
     display: flex;
@@ -23,6 +25,7 @@
     font-size: 1em;
     white-space: nowrap;
   }
+
 
 
 .search-box{
@@ -45,7 +48,6 @@ main div form input{
 
 
 .content-center {
-    max-width: 60em;
     margin: auto;
     padding: 0 3em 0 3em;
     
