@@ -6,13 +6,8 @@
 
 }
 
-.image1{
-    display:flex;
-    
 
-}
-
-.image2{
+.logo{
     border: 0.1em green solid;
     border-radius: 20em;
     top: 20%;
@@ -46,15 +41,24 @@ main div form input{
     text-align: center;
 }
 
-@media screen and (min-width: 40em) {
-    .related-box {
-        flex-basis: 25%;
-    }
+
+.content-center {
+    max-width: 60em;
+    margin: auto;
+    padding: 0 3em 0 3em;
+    
 }
 
 
-@media screen and (min-width: 60em) {
-    .related-box {
-        flex-basis: 20%;
-    }
+.footer-nav ul li{
+    display: inline;
+    
+
+}
+.footer-nav ul{
+    text-align: right;
+}
+.footer-bg{
+    background-color: lightblue;
+    margin: 0em;
 }
