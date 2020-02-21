@@ -16,15 +16,16 @@ header{
     width: auto;
     height: auto;
     margin: 0;
+    text-align: center;
 }
 
-button {
-    display: inline-flexbox;
+header button {
+    display: inherit;
     text-align: inherit;
     padding: 0em;
     margin: 0em;
     border-radius: 1em;
-    white-space: nowrap;
+    color: transparent;
 }
 
 button ul{

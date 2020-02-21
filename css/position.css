@@ -17,18 +17,14 @@
 
 .topright { 
     position: relative; 
-    font-size: 18px;
+    font-size: 20px;
     display: flex;
     margin: 0.5em;
     font-size: 1em;
     white-space: nowrap;
   }
 
-.form-style{
-    position: -webkit-sticky;position:sticky; flex-wrap:wrap-reverse;display: flex;justify-content: center;margin: 1em;border: 0.1em;
-    white-space: nowrap;
 
-}
 .search-box{
     display: block;
     width: 100%;
