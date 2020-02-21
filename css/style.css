@@ -3,6 +3,7 @@
     
     border-radius: 5px;
     padding: 1em;
+    list-style: none;
     
 }
 .nav-main ul li{
@@ -12,10 +13,8 @@
 .nav-main a{
     text-decoration: none;
     color: black;
-    background-color: cornsilk;
     padding: 1em;
     display: inline-block;
-    border-radius: 4px;
 }
 
 .nav-main a:hover{
@@ -24,15 +23,6 @@
 }
 .nav-main ul {
     text-align: right;
-}
-
-.nav-main form label{
-    text-decoration: none;
-    color: black;
-    background-color: cornsilk;
-    padding: 0em;
-    display: inline-block;
-    border-radius: 3px;
 }
 
 main div form{
@@ -60,12 +50,13 @@ main div form{
     font-size: 1em;
     justify-content: center;
     width: 100%;
+    border-radius: 8%;
 }
 
 .related-box{
     box-sizing: border-box;
     background-color: white;
-    border-radius: 5%;
+    border-radius: 8%;
     border: black;
     border-style: solid;
     border-width: 0.5px;
@@ -73,32 +64,30 @@ main div form{
     flex-wrap: nowrap;
     font-size: 1em;
     padding: 0.2em;
-    margin: 0.5px;
+    margin: 0.5em;
 }
 
 .related-box img{
     width: 100%;
     height: 12em;
+    border-radius: 8%;
 }
 
-
-/* .div-img img {
+.div-img{
+    flex-basis: 30%;
     width: 100%;
-    margin: 0em;  
-} */
-
-
+    border-radius: 8%;
+    margin: 0.5em;
+}
 .div-text{
     display: flex;
     flex-grow: 1;
     flex-basis: 50%;
     flex-wrap: wrap-reverse;
-    padding: 0.5em;
     flex-wrap: wrap;
     font-size: 0.5em;
     text-align: center;
-    line-break: auto;
-    list-style: none;
+    white-space: nowrap;
 }
 
 
@@ -127,13 +116,15 @@ main div form{
     margin: inherit;
 }
 
-.text-lst{
+.text-lst li{
     list-style: none;
-    font-size: 1em;
+    font-size: 2em;
     text-align: center;
+    justify-content: center;
+    line-height-step: 1em;
+    white-space: nowrap;
+    line-break: normal;
 }
-
-
 
 
 
@@ -155,10 +146,16 @@ main div form{
     font-size: 1em;
     margin: auto;
     max-width: 60em;
-    border-radius: 20px;
+    border-radius: 20em;
     border-style: solid;
     padding: 1em;
     
+}
+/* 
+@media screen and (max-width: 30em) {
+    .content-center{
+    flex-wrap: wrap-reverse;
+    }
 }
 
 @media screen and (min-width: 40em) {
@@ -176,12 +173,9 @@ main div form{
         grid-template-columns: 10em 10em;
 
         justify-content: end;
-
-        /* align-items: start;
-        justify-items: center; */
         place-items: start center;
     }
-    
+     */
 
 
 

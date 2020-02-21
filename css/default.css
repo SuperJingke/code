@@ -1,13 +1,5 @@
 :root {
     --col-bg: #FFF3D6;
-    --col-on-bg: #333333;
-    --col-accent-a: #935252;
-    --col-on-accent-a: #A775B2;
-    --container-w1: 50em; 
-    --animation-speed-sec : 1;
-    --font-logo :'Indie Flower', cursive;
-    --font-a: 'Roboto',arial, helvetica, sans-serif;
-    --spacing: 0.5em;
  }
  
  body {
@@ -23,33 +15,33 @@ header{
     display: block;
     width: auto;
     height: auto;
+    margin: 0;
+}
+
+button {
+    display: inline-flexbox;
+    text-align: inherit;
+    padding: 0em;
+    margin: 0em;
+    border-radius: 1em;
+    white-space: nowrap;
+}
+
+button ul{
+    padding: 0em;
     margin: 0em;
 }
 
-header button ul li{
-    display: inline-block;
-    color: whitesmoke;
-    margin: 1em;
-}
-.image-size{
-    background-image: url('lily-banse-unsplash.jpg');
-    background-size: cover;
-    width: 100%;
-    min-height:10em;
-    padding: 0em 0em 0em 0em;
-    margin: 0em;
-    text-align: center;
-}
-
-button a{
+button ul li{
     color: whitesmoke;
     font-size: 2em;
+    padding: 0em;
+    margin: 0em;
 }
-
 button a:hover{
     background-color: tomato;
     color: #000000;
-    border-radius: 0.1em;
+    border-width: 0em;
 }
 
 h1,h2{
@@ -57,4 +49,16 @@ h1,h2{
     font-size-adjust: 0.58;
     white-space: nowrap;
 }
+/* 
+@media screen and (max-width:10em){
+    .topright{
+        flex-wrap:wrap;
+        color: black;}
+}
+    
 
+@media screen and (min-width:40em) main{
+    width: 100%;
+    
+}
+ */
