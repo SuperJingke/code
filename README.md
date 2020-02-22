@@ -10,3 +10,4 @@
         2. Make the design unique
         3. beautified and optimized the look
         4. Allow users to customize their background. 
+        5. Make it friendly to mobile, tablet, or destop.
