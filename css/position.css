@@ -53,17 +53,20 @@ main div form input{
     
 }
 
-.footer-nav ul li{
-    display: inline;
-    vertical-align: baseline;
-    
 
-}
 .footer-nav ul{
     text-align: right;
     justify-content: end;
     vertical-align: baseline;
+    background-color: lightslategrey;
 }
+
+.footer-nav ul li{
+    display: inline;
+    vertical-align: baseline;
+    
+}
+
 .footer-bg{
     margin: 0em;
     padding-bottom: 0em;
