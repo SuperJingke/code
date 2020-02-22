@@ -195,14 +195,15 @@ main div form{
 .compare-but{
     background-color: burlywood;
     border-radius: 2px;
-    width: 20%;
+    width: 100%;
     justify-content: center;
     text-align: center;
+    font-size: 10em;
 }
 .compare-but2{
     background-color:brown;
     border-radius: 2px;
-    width: 50%;
+    width: 60%;
     justify-content: center;
     text-align: center;
     font-size: 2em;
