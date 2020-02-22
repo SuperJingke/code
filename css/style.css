@@ -188,9 +188,9 @@ main div form{
 
 .compare-but{
     background-color: burlywood;
-    border-radius: 1px;
+    border-radius: 2px;
     width: 20%;
-    left: 10em;
+    align-items: flex-start;
     justify-content: center;
     text-align: center;
 }
