@@ -207,7 +207,7 @@ main div form{
 .img-social{
     display: inline;
 }
-/* 
+
 @media screen and (max-width: 30em) {
     .content-center{
     flex-wrap: wrap-reverse;
@@ -231,7 +231,7 @@ main div form{
         justify-content: end;
         place-items: start center;
     }
-     */
+    
 
 
 
