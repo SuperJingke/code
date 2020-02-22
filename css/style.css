@@ -205,6 +205,7 @@ main div form{
 .compare-but2{
     background-color:brown;
     border-radius: 2px;
+    border: solid black;
     width: 60%;
     justify-content: center;
     text-align: center;
