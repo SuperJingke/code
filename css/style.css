@@ -76,7 +76,7 @@ main div form{
 }
 
 .div-img{
-    flex-basis: 33%;
+    flex-basis: 35%;
     border-radius: 2%;
     padding: 0em 0.5em 0em 0.5em;
     margin: 0.5em;
@@ -135,7 +135,8 @@ main div form{
 
 .index-box{
     display: flexbox;
-    width: 100%;
+    width: 20%;
+    height: 60%;
     margin: 0.5em;
     max-width: 60em;
     border-radius: 20px;
@@ -149,6 +150,8 @@ main div form{
     border-radius: 20px;
     padding: 1em;
     align-items: flex-start;
+    width: 200em;
+    height: 100em;
 }
 .container{
     /* background-color: tomato; */
