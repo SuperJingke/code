@@ -62,7 +62,8 @@ h3{
     text-align: left;
 }
 
-/* 
+
+
 @media screen and (max-width:10em){
     .topright{
         flex-wrap:wrap;
@@ -73,5 +74,4 @@ h3{
 @media screen and (min-width:40em) main{
     width: 100%;
     
-}
- */
+} 
