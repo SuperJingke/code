@@ -195,10 +195,12 @@ main div form{
 .compare-but{
     background-color: burlywood;
     border-radius: 2px;
-    width: 100%;
     justify-content: center;
     text-align: center;
-    font-size: 10em;
+    font-size: 5em;
+    width: 100%;
+    padding-left: 1em;
+    white-space: nowrap;
 }
 .compare-but2{
     background-color:brown;
@@ -226,6 +228,10 @@ main div form{
     }
 }
 
+media screen and (min-width: 30em) {
+    .compare-but{
+        max-width: 50%;
+    }
 @media screen and (min-width: 40em) {
 	.container {
 		grid-template-columns: 10em 10em;
